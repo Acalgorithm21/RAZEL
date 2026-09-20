@@ -1,0 +1,116 @@
+&{models/gemini-2.5-flash Gemini 2.5 Flash Stable version of Gemini 2.5 Flash, our mid-size multimodal model that supports up to 1 million tokens, released in June of 2025. 001 [] map[] 0xa71bbac6c80 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-pro Gemini 2.5 Pro Stable release (June 17th, 2025) of Gemini 2.5 Pro 2.5 [] map[] 0xa71bbac6e80 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-flash-preview-tts Gemini 2.5 Flash Preview TTS Gemini 2.5 Flash Preview TTS gemini-2.5-flash-exp-tts-2025-05-19 [] map[] 0xa71bbac6ec0 8192 16384 [countTokens generateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemini-2.5-pro-preview-tts Gemini 2.5 Pro Preview TTS Gemini 2.5 Pro Preview TTS gemini-2.5-pro-preview-tts-2025-05-19 [] map[] 0xa71bbac6f40 8192 16384 [countTokens generateContent batchGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemma-4-26b-a4b-it Gemma 4 26B A4B IT Gemma 4 26B A4B IT 001 [] map[] 0xa71bbac6fc0 262144 32768 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemma-4-31b-it Gemma 4 31B IT Gemma 4 31B IT 001 [] map[] 0xa71bbac7000 262144 32768 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemini-flash-latest Gemini Flash Latest Latest release of Gemini Flash Gemini Flash Latest [] map[] 0xa71bbac7080 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-flash-lite-latest Gemini Flash-Lite Latest Latest release of Gemini Flash-Lite Gemini Flash-Lite Latest [] map[] 0xa71bbac7100 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-pro-latest Gemini Pro Latest Latest release of Gemini Pro Gemini Pro Latest [] map[] 0xa71bbac7180 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-flash-lite Gemini 2.5 Flash-Lite Stable version of Gemini 2.5 Flash-Lite, released in July of 2025 001 [] map[] 0xa71bbac7200 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-flash-image Nano Banana Gemini 2.5 Flash Preview Image 2.0 [] map[] 0xa71bbac7280 32768 32768 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 false}
+
+&{models/gemini-3-flash-preview Gemini 3 Flash Preview Gemini 3 Flash Preview 3-flash-preview-12-2025 [] map[] 0xa71bbac7300 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.1-pro-preview Gemini 3.1 Pro Preview Gemini 3.1 Pro Preview 3.1-pro-preview-01-2026 [] map[] 0xa71bbac7380 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.1-pro-preview-customtools Gemini 3.1 Pro Preview Custom Tools Gemini 3.1 Pro Preview optimized for custom tool usage 3.1-pro-preview-01-2026 [] map[] 0xa71bbac7400 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.1-flash-lite-preview Gemini 3.1 Flash Lite Preview Gemini 3.1 Flash Lite Preview 3.1-flash-lite-preview-03-2026 [] map[] 0xa71bbac7480 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.1-flash-lite Gemini 3.1 Flash Lite Gemini 3.1 Flash Lite 3.1-flash-lite-05-2026 [] map[] 0xa71bbac7500 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3-pro-image-preview Nano Banana Pro Gemini 3 Pro Image Preview 3.0 [] map[] 0xa71bbac7580 131072 32768 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/gemini-3-pro-image Nano Banana Pro Gemini 3 Pro Image 3.0 [] map[] 0xa71bbac7600 131072 32768 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/nano-banana-pro-preview Nano Banana Pro Gemini 3 Pro Image Preview 3.0 [] map[] 0xa71bbac7680 131072 32768 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/gemini-3.1-flash-image-preview Nano Banana 2 Gemini 3.1 Flash Image Preview. 3.0 [] map[] 0xa71bbac7700 65536 65536 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/gemini-3.1-flash-image Nano Banana 2 Gemini 3.1 Flash Image. 3.0 [] map[] 0xa71bbac7780 65536 65536 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/gemini-3.1-flash-lite-image Nano Banana 2 Lite Gemini 3.1 Flash Lite Image. 3.0 [] map[] 0xa71bbac7800 65536 65536 [generateContent countTokens batchGenerateContent]  [] 1 1 0.95 64 true}
+
+&{models/gemini-3.5-flash Gemini 3.5 Flash Gemini 3.5 Flash 3.5-flash-05-2026 [] map[] 0xa71bbac7880 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.5-flash-lite Gemini 3.5 Flash Lite Gemini 3.5 Flash Lite 3.5-flash-lite-07-2026 [] map[] 0xa71bbac7900 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-omni-flash-preview Gemini Omni Flash Preview Gemini Omni Flash Preview 001 [] map[] 0xa71bbac7940 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemini-omni-1.1-flash Gemini Omni 1.1 Flash Gemini Omni 1.1 Flash  001 [] map[] 0xa71bbac7980 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.5-transcribe Gemini 3.5 Transcribe Gemini 3.5 Transcribe 3.5-transcribe-08-2026 [] map[] 0xa71bbac79c0 98304 32768 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.6-flash Gemini 3.6 Flash Gemini 3.6 Flash 3.6-flash-07-2026 [] map[] 0xa71bbac7a40 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.7-flash Gemini 3.7 Flash Gemini 3.7 Flash 3.7-flash-08-2026 [] map[] 0xa71bbac7ac0 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.8-flash Gemini 3.8 Flash Gemini 3.8 Flash 3.0 [] map[] 0xa71bbac7b40 1048576 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/lyria-3-clip-preview Lyria 3 Clip Preview Lyria 3 30s model Preview lyria-3-clip-preview [] map[] 0xa71bbac7b80 1048576 65536 [generateContent countTokens]  [] 1 2 0.95 64 false}
+
+&{models/lyria-3-pro-preview Lyria 3 Pro Preview Lyria 3 Pro Preview lyria-3-pro-preview [] map[] 0xa71bbac7bc0 1048576 65536 [generateContent countTokens]  [] 1 2 0.95 64 false}
+
+&{models/lyria-3.5 Lyria 3.5 Music Generation model 3.5 [] map[] 0xa71bbac7c00 1048576 65536 [generateContent countTokens]  [] 1 2 0.95 64 false}
+
+&{models/gemini-3.1-flash-tts-preview Gemini 3.1 Flash TTS Preview Gemini 3.1 Flash TTS Preview 3.1-flash-tts-preview [] map[] 0xa71bbac7c80 8192 16384 [generateContent countTokens batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-robotics-er-2-preview Gemini Robotics-ER 2 Preview Gemini Robotics-ER 2 Preview 2-preview [] map[] 0xa71bbac7d00 131072 65536 [generateContent countTokens createCachedContent batchGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-computer-use-preview-10-2025 Gemini 2.5 Computer Use Preview 10-2025 Gemini 2.5 Computer Use Preview 10-2025 Gemini 2.5 Computer Use Preview 10-2025 [] map[] 0xa71bbac7d40 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/antigravity-preview-05-2026 Antigravity Agent Preview Preview release of Antigravity Agent (05-2026) 0.1 [] map[] 0xa71bbac7d80 1048576 65536 [generateContent countTokens]  [] 0 0 0 0 false}
+
+&{models/antigravity-preview-09-2026 Antigravity Agent Preview Preview release of Antigravity Agent (09-2026) 0.1 [] map[] 0xa71bbac7dc0 1048576 65536 [generateContent countTokens]  [] 0 0 0 0 false}
+
+&{models/deep-research-max-preview-04-2026 Deep Research Max Preview (Apr-21-2026) Preview release (April 21st, 2026) of Deep Research Max deepthink-exp-05-20 [] map[] 0xa71bbac7e00 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/deep-research-preview-04-2026 Deep Research Preview (Apr-21-2026) Preview release (April 21th, 2026) of Deep Research deepthink-exp-05-20 [] map[] 0xa71bbac7e40 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/deep-research-pro-preview-12-2025 Deep Research Pro Preview (Dec-12-2025) Preview release (December 12th, 2025) of Deep Research Pro deepthink-exp-05-20 [] map[] 0xa71bbac7e80 131072 65536 [generateContent countTokens]  [] 1 2 0.95 64 true}
+
+&{models/gemini-embedding-001 Gemini Embedding 001 Obtain a distributed representation of a text. 001 [] map[] 0xa71bbb54000 2048 1 [embedContent countTextTokens countTokens asyncBatchEmbedContent]  [] 0 0 0 0 false}
+
+&{models/gemini-embedding-2-preview Gemini Embedding 2 Preview Obtain a distributed representation of multimodal content. 2 [] map[] 0xa71bbb54080 8192 1 [embedContent countTextTokens countTokens asyncBatchEmbedContent]  [] 0 0 0 0 false}
+
+&{models/gemini-embedding-2 Gemini Embedding 2 Obtain a distributed representation of multimodal content. 2 [] map[] 0xa71bbb54100 8192 1 [embedContent countTextTokens countTokens asyncBatchEmbedContent]  [] 0 0 0 0 false}
+
+&{models/aqa Model that performs Attributed Question Answering. Model trained to return answers to questions that are grounded in provided sources, along with estimating answerable probability. 001 [] map[] 0xa71bbb54140 7168 1024 [generateAnswer]  [] 0.2 0 1 40 false}
+
+&{models/veo-3.1-generate-preview Veo 3.1 Veo 3.1 3.1 [] map[] 0xa71bbb54180 480 8192 [predictLongRunning]  [] 0 0 0 0 false}
+
+&{models/veo-3.1-fast-generate-preview Veo 3.1 fast Veo 3.1 fast 3.1 [] map[] 0xa71bbb541c0 480 8192 [predictLongRunning]  [] 0 0 0 0 false}
+
+&{models/veo-3.1-lite-generate-preview Veo 3.1 lite Veo 3.1 lite 3.1 [] map[] 0xa71bbb54200 480 8192 [predictLongRunning]  [] 0 0 0 0 false}
+
+&{models/gemini-3.5-transcribe-live Gemini 3.5 Transcribe Live Gemini 3.5 Transcribe Live 3.5-transcribe-live-08-2026 [] map[] 0xa71bbb54240 131072 65536 [bidiGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemini-2.5-flash-native-audio-latest Gemini 2.5 Flash Native Audio Latest Latest release of Gemini 2.5 Flash Native Audio Gemini 2.5 Flash Native Audio Latest [] map[] 0xa71bbb54280 131072 8192 [countTokens bidiGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-flash-native-audio-preview-09-2025 Gemini 2.5 Flash Native Audio Preview 09-2025 Gemini 2.5 Flash Native Audio Preview 09-2025 gemini-2.5-flash-preview-native-audio-dialog-2025-05-19 [] map[] 0xa71bbc44080 131072 8192 [countTokens bidiGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-2.5-flash-native-audio-preview-12-2025 Gemini 2.5 Flash Native Audio Preview 12-2025 Gemini 2.5 Flash Native Audio Preview 12-2025 12-2025 [] map[] 0xa71bbc440c0 131072 8192 [countTokens bidiGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-3.1-flash-live-preview Gemini 3.1 Flash Live Preview Gemini 3.1 Flash Live Preview 3.1-flash-live-03-2026 [] map[] 0xa71bbc44100 131072 65536 [bidiGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemini-3.8-live Gemini 3.8 Live Gemini 3.8 Live 3.1-flash-live-03-2026 [] map[] 0xa71bbc44140 131072 65536 [bidiGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemini-3.8-live-extended-thinking Gemini 3.8 Live Extended Thinking Gemini 3.8 Live Extended Thinking 3.1-flash-live-03-2026 [] map[] 0xa71bbc441c0 131072 65536 [bidiGenerateContent]  [] 1 2 0.95 64 true}
+
+&{models/gemini-robotics-er-2-streaming-preview Gemini Robotics-ER 2 Streaming Preview Gemini Robotics-ER 2 Streaming Preview 2-streaming-preview [] map[] 0xa71bbc44200 131072 65536 [bidiGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/gemini-3.5-live-translate-preview Gemini 3.5 Live Translate Preview Gemini 3.5 Live Translate Preview 3.5-live-translate-06-2026 [] map[] 0xa71bbc44240 16384 32768 [bidiGenerateContent]  [] 1 2 0.95 64 false}
+
+&{models/lyria-realtime-exp Lyria Realtime Experimental Lyria Realtime Experimental lyria-realtime-exp [] map[] 0xa71bbc44280 1048576 65536 [bidiGenerateMusic]  [] 0 0 0 0 false}
+
