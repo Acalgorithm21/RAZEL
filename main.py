@@ -2,6 +2,8 @@ import os
 import time
 import threading
 import pyaudio
+import uuid
+from datetime import datetime
 
 from dotenv import load_dotenv
 from deepgram import DeepgramClient
@@ -13,10 +15,29 @@ API_KEY = os.getenv("DEEPGRAM_API_KEY")
 
 if not API_KEY:
     raise RuntimeError("DEEPGRAM_API_KEY is missing from .env")
+# Must match incomingDir in the Go handler
+INCOMING_DIR = "./transcripts/incoming"
+
+
+def save_transcript(lines: list[str]) -> None:
+    """Write the finished transcript to INCOMING_DIR using an atomic
+    write-then-rename, so the Go handler never sees a partially written file."""
+    os.makedirs(INCOMING_DIR, exist_ok=True)
+
+    call_id = f"{datetime.now().strftime('%Y%m%d-%H%M%S')}-{uuid.uuid4().hex[:8]}"
+    final_path = os.path.join(INCOMING_DIR, f"{call_id}.txt")
+    temp_path = final_path + ".tmp"
+
+    with open(temp_path, "w") as f:
+        f.write("\n".join(lines))
+
+    os.rename(temp_path, final_path)  # atomic on the same filesystem
+    print(f"\nSaved transcript -> {final_path}")
 
 
 def main():
     client = DeepgramClient(api_key=API_KEY)
+    transcript_lines: list[str] = []
 
     with client.listen.v1.connect(
         model="nova-3",
@@ -42,6 +63,7 @@ def main():
             if message.is_final:
                 if transcript:
                     print(f"\r{transcript}{' ' * 20}")  # lock in the finished line
+                    transcript_lines.append(transcript)
                 else:
                     print(f"\r[inaudible]{' ' * 20}")
             else:
@@ -92,6 +114,11 @@ def main():
                 connection.send_close_stream()
             except Exception:
                 pass
+
+            if transcript_lines:  # <-- ADDED: save on exit
+                save_transcript(transcript_lines)
+            else:
+                print("No transcript captured — nothing saved.")
 
 
 if __name__ == "__main__":

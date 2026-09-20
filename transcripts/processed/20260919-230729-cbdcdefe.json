@@ -1,0 +1,15 @@
+{
+  "vcc_case_number": "N/A",
+  "is_pic_experiencing_si": false,
+  "has_pic_engaged_in_self_harm_today": false,
+  "mental_health_symptoms_causing_impairment_summary": "The transcript provided is a test document and contains no clinical information regarding stressors, functional impairments, or requests for mobile crisis response.",
+  "needs_immediate_intervention": false,
+  "high_likelihood_higher_level_of_care_needed": false,
+  "understands_and_wants_mcr": false,
+  "substance_use": false,
+  "type_of_substance": "N/A",
+  "last_use_time": "N/A",
+  "amount_used": "N/A",
+  "active_withdrawal_symptoms_or_impairment": false,
+  "active_psychosis": false
+}

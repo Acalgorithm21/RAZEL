@@ -1,0 +1,15 @@
+{
+  "vcc_case_number": "null",
+  "is_pic_experiencing_si": true,
+  "has_pic_engaged_in_self_harm_today": false,
+  "mental_health_symptoms_causing_impairment_summary": "The caller, Karen, reports chronic depression characterized by a lack of motivation, inability to work or engage in social activities, and significant impairment in self-care, including a lack of energy to eat. She expresses feelings of hopelessness, guilt, and isolation, noting that her condition has negatively impacted her marriage and family relationships. She is seeking support due to persistent suicidal ideation and an inability to cope with her ongoing symptoms.",
+  "needs_immediate_intervention": true,
+  "high_likelihood_higher_level_of_care_needed": true,
+  "understands_and_wants_mcr": true,
+  "substance_use": false,
+  "type_of_substance": "null",
+  "last_use_time": "null",
+  "amount_used": "null",
+  "active_withdrawal_symptoms_or_impairment": false,
+  "active_psychosis": false
+}
