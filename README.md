@@ -154,6 +154,11 @@ The goal is not simply to produce another transcript. The goal is to transform r
 * PyAudio
 * PortAudio
 
+### Transcription Parsing
+
+* golang
+* Gemini gemini-3.1-flash-lite
+
 ### Configuration
 
 * python-dotenv
@@ -217,6 +222,8 @@ source .venv/bin/activate
 
 ### 3. Install dependencies
 
+go v1.27
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -229,10 +236,11 @@ Copy the environment template:
 cp .env.example .env
 ```
 
-Then add your Deepgram API key:
+Then add your Datagram and Google AI Studio API keys:
 
 ```env
-DEEPGRAM_API_KEY=your_api_key_here
+DEEPGRAM_API_KEY=your_datagram_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 The `.env` file is intentionally excluded from Git.
@@ -253,6 +261,7 @@ The application currently requires:
 
 ```env
 DEEPGRAM_API_KEY=your_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 Never commit the actual API key to the repository.
